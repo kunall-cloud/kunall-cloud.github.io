@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevOps Engineer — Portfolio coming soon. Cloud infrastructure, CI/CD, and AWS expertise.">
+  <title>Coming Soon | DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--left" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--right" aria-hidden="true"></div>
+
+  <div class="aws-bg" aria-hidden="true">
+    <div class="aws-orbit aws-orbit--deep" id="aws-orbit-deep"></div>
+    <div class="aws-orbit aws-orbit--main" id="aws-orbit-main"></div>
+    <div class="aws-orbit aws-orbit--accent" id="aws-orbit-accent"></div>
+    <div class="aws-bg-vignette"></div>
+  </div>
+
+  <main class="hero">
+    <div class="hero__badge">
+      <span class="pulse-dot"></span>
+      Work in progress
+    </div>
+
+    <p class="hero__role">DevOps Engineer</p>
+    <h1 class="hero__title">
+      <span class="hero__title-line">Building in the</span>
+      <span class="hero__title-line hero__title-line--accent">Cloud</span>
+    </h1>
+    <p class="hero__subtitle">
+      A new portfolio is on the way — Solution Architect, infrastructure as code, CI/CD pipelines,
+      and cloud-native architecture. Stay tuned.
+    </p>
+
+    <div class="hero__cta">
+      <!-- <a href="portfolio.html" class="btn btn--secondary">View Portfolio</a> -->
+      <a href="mailto:your.email@example.com" class="btn btn--primary" id="email-link">
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="M2 7l10 7 10-7"/>
+        </svg>
+        <span>your.email@example.com</span>
+      </a>
+      <a href="https://linkedin.com/in/your-profile" class="btn btn--secondary" target="_blank" rel="noopener noreferrer" id="linkedin-link">
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        <span>Connect on LinkedIn</span>
+      </a>
+    </div>
+
+    <div class="hero__stack">
+      <span class="stack-label">Stack preview</span>
+      <div class="stack-tags">
+        <span class="tag">AWS</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">Docker</span>
+        <span class="tag">CI/CD</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> DevOps Engineer. All systems nominal.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="aws-bg.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
