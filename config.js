@@ -5,7 +5,7 @@ const SITE = {
   name: "Kunal Parekh",
   role: "DevOps Engineer",
   tagline: "Building scalable cloud infrastructure with AWS, Kubernetes, and automation.",
-  email: "kunal.parekh@gmail.com",
+  email: "kunalparekhh@gmail.com",
   linkedin: "https://www.linkedin.com/in/parekhkunal/",
   linkedinDisplay: "linkedin.com/in/parekhkunal",
   location: "India",
